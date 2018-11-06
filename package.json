@@ -1,0 +1,35 @@
+{
+  "name": "dvripclient",
+  "version": "1.0.0",
+  "description": "Client for various Surveillance cameras and DVR's operating under the DVR-IP protocol, also known as NetSurveillance or Sofia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dvrip",
+    "netsurveillance",
+    "sofia",
+    "hisilicon",
+    "ipcam",
+    "surveillance",
+    "camera",
+    "activex",
+    "client"
+  ],
+  "dependencies": {
+    "binary-parser": "^1.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  },
+  "author": "Kinsi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kinsi55/node_dvripclient.git"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  }
+}
