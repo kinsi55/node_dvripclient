@@ -1,6 +1,6 @@
 {
   "name": "dvripclient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for various Surveillance cameras and DVR's operating under the DVR-IP protocol, also known as NetSurveillance or Sofia",
   "main": "index.js",
   "scripts": {
