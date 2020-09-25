@@ -26,10 +26,12 @@ const ChildProcess = require("child_process");
 			"-fflags", "+nobuffer+genpts",
 			"-analyzeduration", "1",
 			"-probesize", "32",
+			"-r", encParams.data.MainFormat.Video.FPS, //Not sure if this does anything, doesnt seem to be needed.
+			"-use_wallclock_as_timestamps", 1,
 			"-i", "pipe:",
 			"-c", "copy",
 			"-f", "rtsp",
-			//"-r", encParams.data.MainFormat.Video.FPS,
+			"-vsync", "vfr",
 			"-rtsp_transport", "tcp",
 			`rtsp://${rtspIngestIp}/${camIp}`
 		], {env: process.env});
